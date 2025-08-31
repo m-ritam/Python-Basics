@@ -1,0 +1,11 @@
+# Pair two lists using zip()
+names = ["Alice", "Bob", "Charlie"]
+ages = [25, 30, 35]
+
+zipped_list = list(zip(names, ages))
+print("Zipped list:", zipped_list)
+
+# Unzip back into separate lists
+unzipped_names, unzipped_ages = zip(*zipped_list)
+print("Names:", unzipped_names)
+print("Ages:", unzipped_ages)
