@@ -1,0 +1,9 @@
+import math
+
+n = int(input("Enter a number: "))
+print("Square root of", n, "is:", math.sqrt(n))
+print(n, "to the power of 2 is:", math.pow(n, 2))
+print("Factorial of", n, "is:", math.factorial(n))
+
+#value of pi
+print("Value of pi:", math.pi)
