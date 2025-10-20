@@ -1,0 +1,7 @@
+import datetime
+custom = datetime.datetime.now()
+
+print(custom.date())
+print(custom.time())
+print(custom.year)
+print(custom.day)
